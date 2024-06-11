@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Proza libre";
+}
+
+.currentpage1 {
+  color: #2564b6;
+}
+
+.currentpage2 {
+  color: #debf1d;
+}
+
+.currentpage3 {
+  color: #7850a1;
+}
+
+.currentpage4 {
+  color: #1f8441;
+}
+
+body {
+  background-color: #060606;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background: #060606;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  max-width: 1450px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-right: -20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 2rem;
+  font-size: 32px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: "Racing Sans";
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Racing Sans";
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #a3a3a3;
+  font-family: "Racing Sans";
+}
+
+.p {
+  font-family: "Proza libre";
+}
+
+#about p,
+#home p {
+  text-align: center;
+  font-family: "Proza libre";
+}
+
+footer {
+  background: #060606;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  max-width: 1450px;
+  margin-bottom: 0px;
+}
+
+/* PORTFOLIO */
+.opgaverh1 {
+  text-align: center;
+  margin-bottom: -15px;
+  font-size: 70px;
+  margin-top: 0px;
+}
+
+.portfolio {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.portfolio p {
+  color: #a3a3a3;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 25px;
+  font-family: "Proza librebold";
+  font-size: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery .item {
+  flex: 1 1 48%;
+  margin: 1rem;
+  background: #7850a1;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery .item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery .item h3 {
+  margin: 0.5rem 0 0.5rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 35px;
+  margin-left: 30px;
+  margin-bottom: -6px;
+  margin-top: -5px;
+  text-align: left;
+  font-family: "Racing Sans";
+}
+
+.gallery .item h4 {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 8px;
+  text-align: left;
+  font-family: "Proza librebold";
+}
+
+.gallery .item p {
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 80px;
+  margin-bottom: 0px;
+  font-family: "Proza libre";
+  font-size: 14px;
+}
+
+.gallery .linkhover:hover {
+  transform: scale(1.05);
+  color: #ffffff;
+}
+
+.gallery .item a {
+  font-family: "Proza librebold";
+  font-size: 15px;
+  margin-left: 30px;
+  color: #0099ff;
+  text-align: left;
+}
+
+/* KONTAKT: */
+
+.kontakth1 {
+  text-align: center;
+  margin-bottom: -15px;
+  font-size: 70px;
+  margin-top: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+form button {
+  padding: 0.7rem;
+  background: #1f8441;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #004080;
+}
+
+.kontakth1 {
+  margin-top: 80px;
+}
+
+.containerkontakt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#contact {
+  flex: 1;
+  min-width: 300px; /* Ensure the form has a minimum width */
+  margin-right: 20px; /* Space between the form and the image */
+}
+
+.kontaktimg {
+  flex: 1;
+  min-width: 600px; /* Ensure the image container has a minimum width */
+}
+
+.kontaktimg img {
+  max-width: 100%;
+  margin-left: 120px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: auto;
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* INDEX: */
+
+.nav-list a:hover {
+  transform: scale(1.05);
+  color: #8f8f8f;
+}
+
+.home {
+  padding: 2rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#home {
+  flex: 1;
+  text-align: left;
+  padding-right: 20px; /* Add spacing between text and image */
+}
+
+.beinirh1 {
+  font-size: 140px; /* Adjust text size as needed */
+  margin-top: 60px;
+  margin-left: -80px;
+}
+
+#home h2 {
+  font-size: 30px; /* Adjust text size as needed */
+  margin-top: -20px;
+  margin-left: 100px;
+}
+
+.troesth1 {
+  font-size: 110px;
+  margin-top: -70px;
+  margin-left: -30px;
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin-left: 160px;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+/* OMMIG */
+
+.containerommig {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  padding: 2rem 1rem;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.erfaringertekst {
+  padding-bottom: 50px;
+}
+
+.mitcv {
+  background-color: #ffffff;
+  padding-left: 270px;
+  padding-right: 250px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mitcvh2 {
+  color: #060606;
+  text-align: left;
+  font-size: 70px;
+}
+
+.ommigimg {
+  flex: 1;
+  padding-right: 20px;
+  margin-top: -20px;
+  margin-bottom: 120px;
+  height: auto; /* Maintains aspect ratio */
+}
+
+.ommigimg img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin-left: 100px;
+}
+
+#ommig {
+  flex: 2; /* Adjust as needed for the text area size */
+  margin-left: 100px;
+}
+
+#ommig h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  font-family: "Racing Sans";
+}
+
+#ommig p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+  padding-right: 80px;
+}
+
+.mitcv h3 {
+  color: #debf1d;
+  font-family: "Racing sans";
+  font-size: 40px;
+}
+
+.line-under-text {
+  border-bottom: 4px solid #debf1d; /* Adjust the color and thickness as needed */
+  width: 150px;
+}
+
+.mitcv h4 {
+  color: #060606;
+  font-family: "Proza librebold";
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.mitcv h5 {
+  color: #060606;
+  font-family: "Proza libre";
+  font-size: 18px;
+}
+
+.mitcv p {
+  color: #060606;
+  font-family: "Proza libre";
+}
+
+/* Section styles */
+.uddannelse,
+.erhverv {
+  margin-bottom: 40px;
+}
+
+.erhverv2 {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+/* Paragraph styles */
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-family: "Proza libre";
+}
+
+/* Differentiate between Uddannelse and Erhverv sections */
+
+/* Add more specific styling as needed */

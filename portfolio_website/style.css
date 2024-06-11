@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Racing Sans";
+  src: url(font_racing-sans-one-webfont/RacingSansOne-Regular.woff)
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proza libre";
+  src: url(font_proza-libre-webfont/ProzaLibre-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proza librebold";
+  src: url(font_proza-libre-webfont/ProzaLibre-Medium.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
